@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                sh 'clean install'
+                sh 'mvn clean install'
                 sh 'node --version'
                 sh 'svn --version'
             }
