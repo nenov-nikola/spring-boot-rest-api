@@ -1,3 +1,3 @@
-FROM centos:7
+FROM node:7-alpine
 
-RUN yum add -U subversion
+RUN apk add -U subversion
