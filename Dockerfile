@@ -1,3 +1,3 @@
 FROM centos:7
 
-RUN apk add -U subversion
+RUN yum add -U subversion
